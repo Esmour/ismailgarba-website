@@ -1,7 +1,6 @@
-baseURL: "www.ismailgarba.com/"
+baseURL: "https://www.ismailgarba.com/"
 languageCode: "en-au"
 title: "Dr Ismail Garba | Agricultural Systems Science"
-theme: ""
 pagination:
   pagerSize: 12
 enableRobotsTXT: true
