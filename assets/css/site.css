@@ -19,3 +19,11 @@
   right: -18px;
   bottom: 40px;
 }
+
+/* Keep the homepage portrait responsive on mobile */
+@media (max-width: 680px) {
+  .hero-photo {
+    height: 290px;
+  }
+}
+
