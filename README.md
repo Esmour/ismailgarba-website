@@ -1,22 +1,48 @@
-# Dr Ismail Garba — personal research website
+# Dr Ismail Garba — Hugo academic portfolio
 
-Responsive static portfolio built with HTML, CSS and vanilla JavaScript.
-
-## Files
-- `index.html` — page content and verified external evidence links
-- `styles.css` — responsive visual design
-- `script.js` — mobile navigation and footer year
-
-## Deployment
-Cloudflare Pages, connected to the GitHub repository. No build command is required; publish from the repository root (`.`).
-
-## Before public launch
-1. Add an approved professional portrait.
-2. Confirm the preferred public email address. The contact button currently links to the CSIRO profile rather than inventing an email contact.
-3. Review project descriptions for public-release approval and confirm your personal contributions.
-4. Expand the publication list from verified Google Scholar/ORCID metadata; no unverified citation counts are hard-coded.
-5. Confirm any conference presentation details before adding a speaker/presenter claim.
-6. Replace remote stock images with owned/licensed research photographs where available.
+A custom, dependency-light Hugo site for `ismailgarba.com`. The content model is inspired by the supplied Bangyou Zheng and JJ Ojeda repositories, with a bespoke visual design.
 
 ## Local preview
-Open `index.html` in a modern browser. Google Fonts and remote Unsplash backgrounds require an internet connection.
+
+Install Hugo Extended (0.125 or newer), then run:
+
+```bash
+hugo server -D
+```
+
+Build the production site:
+
+```bash
+hugo --minify
+```
+
+The generated site is written to `public/`.
+
+## Content management
+
+Add one Markdown file per item:
+
+- `content/publications/` — journal articles, conference papers, preprints, reports and chapters.
+- `content/projects/` — research projects and collaborations.
+- `content/experience/` — appointments, education and visiting/research experience.
+- `content/talks/` — conference talks, invited talks, posters and seminars.
+- `content/teaching/` — courses, guest lectures and teaching contributions.
+- `content/software/` — software, workflows, dashboards and datasets.
+- `content/posts/` — technical notes and research articles.
+
+Use the front matter fields in the archetypes as a starting point. For publications, `authors`, `date`, `publication`, `publication_type`, `doi`, `url_pdf`, `abstract`, `featured` and `tags` are supported. Do not add unverified bibliographic metadata.
+
+## Cloudflare Pages
+
+Connect the GitHub repository and configure:
+
+- Framework preset: Hugo (or None)
+- Build command: `hugo --minify`
+- Build output directory: `public`
+- Environment variable: `HUGO_VERSION` = `0.147.9`
+
+The domain and DNS settings are separate from the site build. Keep the existing custom-domain configuration while changing the build settings.
+
+## Before public launch
+
+Replace the portrait placeholder with an approved professional photograph; add a public professional email address if desired; populate publication records from verified Google Scholar/ORCID/publisher metadata; and check all project descriptions and dates.

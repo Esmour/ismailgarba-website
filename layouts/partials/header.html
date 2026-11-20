@@ -1,0 +1,8 @@
+<header class="header wrap">
+  <a class="brand" href="{{ .Site.Home.RelPermalink }}"><span class="brand-mark">IG</span><span class="brand-name">ISMAIL GARBA<small>RESEARCH & SCIENCE</small></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">☰</button>
+  <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+    {{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+    <a class="nav-cta" href="{{ "#contact" | relURL }}">Contact ↗</a>
+  </nav>
+</header>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="topline"><span></span> AGRICULTURAL SYSTEMS · MODELLING · DATA</div>
+  {{ partial "header.html" . }}
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+  <script src="{{ "js/site.js" | relURL }}" defer></script>
+</body>
+</html>
