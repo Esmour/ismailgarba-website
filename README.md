@@ -1,4 +1,4 @@
-# Dr Ismail Garba — Hugo academic portfolio
+# Dr Ismail Garba 
 
 A custom, dependency-light Hugo site for `ismailgarba.com`. The content model is inspired by others, with a bespoke visual design.
 
