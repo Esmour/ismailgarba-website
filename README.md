@@ -1,6 +1,6 @@
 # Dr Ismail Garba — Hugo academic portfolio
 
-A custom, dependency-light Hugo site for `ismailgarba.com`. The content model is inspired by the supplied Bangyou Zheng and JJ Ojeda repositories, with a bespoke visual design.
+A custom, dependency-light Hugo site for `ismailgarba.com`. The content model is inspired by others, with a bespoke visual design.
 
 ## Local preview
 
@@ -45,4 +45,3 @@ The domain and DNS settings are separate from the site build. Keep the existing 
 
 ## Before public launch
 
-Replace the portrait placeholder with an approved professional photograph; add a public professional email address if desired; populate publication records from verified Google Scholar/ORCID/publisher metadata; and check all project descriptions and dates.
