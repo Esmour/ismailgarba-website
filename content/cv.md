@@ -5,7 +5,7 @@ url: "/cv/"
 
 **Dr Ismail Ibrahim Garba** is an agricultural systems scientist with experience in crop and farming systems modelling, agronomy, experimental research and agricultural data analytics. My work combines APSIM simulations, field evidence, environmental datasets and statistical analysis to investigate G × E × M interactions, nitrogen management, crop productivity and farming-system performance.
 
-[CSIRO profile](https://people.csiro.au/g/i/ismail-garba) · [Google Scholar](https://scholar.google.com/citations?user=pylRZsQAAAAJ&hl=en) · [ORCID 0000-0002-0009-4866](https://orcid.org/0000-0002-0009-4866)
+[Google Scholar](https://scholar.google.com/citations?user=pylRZsQAAAAJ&hl=en) · [ORCID 0000-0002-0009-4866](https://orcid.org/0000-0002-0009-4866)
 
 ## Education
 
