@@ -1,20 +1,25 @@
-baseURL: "https://www.ismailgarba.com/"
+baseURL: "https://ismailgarba.com/"
 languageCode: "en-au"
 title: "Dr Ismail Garba | Agricultural Systems Science"
+
 pagination:
   pagerSize: 12
+
 enableRobotsTXT: true
 enableGitInfo: false
 summaryLength: 35
+
 outputs:
   home: [HTML, RSS, JSON]
   section: [HTML, RSS]
+
 permalinks:
   publications: "/publication/:slug/"
   projects: "/project/:slug/"
   talks: "/talk/:slug/"
   experience: "/experience/:slug/"
   posts: "/notes/:slug/"
+
 params:
   description: "Dr Ismail Garba is an agricultural systems scientist working across agronomy, crop modelling, nitrogen management and agricultural data science."
   author: "Dr Ismail Ibrahim Garba"
@@ -25,6 +30,7 @@ params:
   accent: "#245b4b"
   accentDark: "#173b35"
   descriptionShort: "Agronomy · Crop modelling · Data science"
+
 menu:
   main:
     - name: About
@@ -54,9 +60,7 @@ menu:
     - name: Notes
       url: /posts/
       weight: 9
-    - name: CV
-      url: /cv/
-      weight: 10
+
 markup:
   goldmark:
     renderer:
